@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Marketing</title>
+<meta name="description" content="Herramienta interna que conecta Claude Code con Google Tag Manager, Google Analytics 4 y Display & Video 360.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1d2330; --muted: #5b6475; --line: #e3e6ec; --accent: #1f5fd6; --card: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14171d; --fg: #e8ebf1; --muted: #a3abba; --line: #2b313c; --accent: #7aa7ff; --card: #1b1f27; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; }
+  p, li { color: var(--fg); }
+  .lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 24px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin: 24px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Claude Marketing</h1>
+  <p class="lead">Herramienta interna, de uso personal, que conecta Claude Code con Google Tag Manager, Google Analytics 4 y Display &amp; Video 360.</p>
+
+  <div class="card">
+    No es un servicio público ni se ofrece a terceros. Solo la usa su autor para trabajar en las cuentas de marketing digital que administra.
+  </div>
+
+  <h2>Qué hace</h2>
+  <ul>
+    <li><strong>Google Tag Manager:</strong> revisa contenedores y prepara cambios en etiquetas, activadores y variables. Los cambios se preparan en un espacio de trabajo aparte y solo se publican con aprobación explícita.</li>
+    <li><strong>Google Analytics 4:</strong> revisa la configuración de las propiedades (eventos clave, dimensiones personalizadas, retención de datos) y consulta informes de rendimiento.</li>
+    <li><strong>Display &amp; Video 360:</strong> revisa y edita campañas, pedidos de inserción y líneas de pedido.</li>
+  </ul>
+
+  <h2>Cómo funciona</h2>
+  <ul>
+    <li>Es un script que se ejecuta en el computador de su autor. La app no tiene servidores propios.</li>
+    <li>El acceso se autoriza con el inicio de sesión de Google (OAuth 2.0), con la cuenta que ya tiene permisos en cada plataforma. La app no puede ver nada que esa cuenta no vea.</li>
+    <li>Las credenciales de sesión se guardan solo en ese computador.</li>
+    <li>Cada cambio se muestra antes como plan, se aprueba y queda registrado para poder revertirlo.</li>
+  </ul>
+
+  <h2>Privacidad</h2>
+  <p>Lee la <a href="privacidad.html">política de privacidad</a> para saber a qué datos accede la app, cómo se usan y cómo quitarle el acceso.</p>
+
+  <footer>
+    Contacto: <a href="mailto:orduvini.s@gmail.com">orduvini.s@gmail.com</a> · <a href="privacidad.html">Política de privacidad</a>
+  </footer>
+</main>
+</body>
+</html>
