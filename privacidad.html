@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Claude Marketing</title>
+<meta name="description" content="Política de privacidad de Claude Marketing, herramienta interna para Google Tag Manager, Google Analytics 4 y Display & Video 360.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1d2330; --muted: #5b6475; --line: #e3e6ec; --accent: #1f5fd6; --card: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14171d; --fg: #e8ebf1; --muted: #a3abba; --line: #2b313c; --accent: #7aa7ff; --card: #1b1f27; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: .88em; overflow-wrap: anywhere; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin: 24px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Claude Marketing</a></p>
+  <h1>Política de privacidad</h1>
+  <p class="lead">Última actualización: 30 de septiembre de 2026</p>
+
+  <p>Claude Marketing es una herramienta interna, de uso personal, que conecta Claude Code con Google Tag Manager, Google Analytics 4 y Display &amp; Video 360. Esta política explica a qué datos accede, para qué los usa y cómo quitarle el acceso.</p>
+
+  <h2>Responsable</h2>
+  <p>Sebastián Orduvini. Contacto: <a href="mailto:orduvini.s@gmail.com">orduvini.s@gmail.com</a>.</p>
+
+  <h2>Datos a los que accede</h2>
+  <p>La app solo accede a los datos que la cuenta de Google que inicia sesión autoriza de forma explícita en la pantalla de consentimiento de Google:</p>
+  <ul>
+    <li><strong>Dirección de correo de la cuenta</strong>, para identificar qué cuenta está conectada (permisos <code>openid</code> y <code>email</code>).</li>
+    <li><strong>Google Tag Manager:</strong> configuración de los contenedores (etiquetas, activadores, variables y versiones), para leerla y editarla (<code>tagmanager.edit.containers</code>, <code>tagmanager.edit.containerversions</code>, <code>tagmanager.publish</code>).</li>
+    <li><strong>Google Analytics 4:</strong> configuración de las propiedades y datos de informes agregados (<code>analytics.edit</code>, <code>analytics.readonly</code>).</li>
+    <li><strong>Display &amp; Video 360:</strong> configuración de anunciantes, campañas, pedidos de inserción y líneas de pedido, e informes de rendimiento (<code>display-video</code>, <code>doubleclickbidmanager</code>).</li>
+  </ul>
+  <p>La app no puede ver nada que esa cuenta de Google no pueda ver por sí misma.</p>
+
+  <h2>Para qué se usan</h2>
+  <ul>
+    <li>Solo para revisar, analizar y editar la configuración de medición y de campañas de las cuentas que administra el usuario, cuando el propio usuario lo pide.</li>
+    <li>No se usan para publicidad, perfilamiento, venta de datos ni ningún otro fin.</li>
+  </ul>
+
+  <h2>Dónde se guardan</h2>
+  <ul>
+    <li>La app no tiene servidores propios. Se ejecuta en el computador del usuario.</li>
+    <li>Las credenciales de sesión (tokens de OAuth) se guardan en la carpeta de perfil del usuario, en ese mismo computador.</li>
+    <li>Los resultados de consultas y los registros de cambios se guardan como archivos de trabajo en el almacenamiento personal del usuario.</li>
+  </ul>
+
+  <h2>Con quién se comparten</h2>
+  <ul>
+    <li>Los datos no se venden ni se ceden a terceros.</li>
+    <li>La app funciona dentro de Claude Code, el asistente de Anthropic. Cuando el usuario le pide una consulta o un cambio, los datos necesarios para responder se procesan en su sesión de Claude Code, según las condiciones de uso y la política de privacidad de Anthropic.</li>
+  </ul>
+
+  <h2>Uso limitado de los datos de Google</h2>
+  <div class="card">
+    El uso y la transferencia a cualquier otra app de la información recibida de las API de Google cumplen la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos del usuario de los servicios de API de Google</a>, incluidos los requisitos de Uso limitado.
+  </div>
+
+  <h2>Cómo quitar el acceso</h2>
+  <ul>
+    <li>En cualquier momento, desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> → Claude Marketing → Quitar acceso.</li>
+    <li>Al quitar el acceso, las credenciales guardadas dejan de funcionar. También se pueden borrar pidiéndolo al contacto de arriba.</li>
+  </ul>
+
+  <h2>Cambios</h2>
+  <p>Si esta política cambia, se actualizará en esta página con una nueva fecha.</p>
+
+  <footer>
+    Contacto: <a href="mailto:orduvini.s@gmail.com">orduvini.s@gmail.com</a> · <a href="index.html">Inicio</a>
+  </footer>
+</main>
+</body>
+</html>
